@@ -13,7 +13,16 @@ The extension provides two main operations:
 
 The connector uses the `com.github.luben:zstd-jni` library to perform the compression and decompression operations. The `ZstandardOperations` class contains the `compress` and `decompress` methods, which are exposed as Mule operations.
 
-The `compress` operation takes a byte array as input and returns a compressed byte array. The `decompress` operation takes a compressed byte array and returns the original decompressed data.
+
+
+The `compress` operation takes a byte array as input and returns a compressed byte array.
+
+<img width="616" height="462" alt="image" src="https://github.com/user-attachments/assets/a547b77a-3b9a-4ce5-a096-9c191deca8dd" />
+
+The `decompress` operation takes a compressed byte array and returns the original decompressed data.
+
+<img width="607" height="418" alt="image" src="https://github.com/user-attachments/assets/1cf83dda-41cc-497b-8b4c-78de1e0a8902" />
+
 
 ## Zstandard vs. GZIP
 
