@@ -2,6 +2,8 @@
 
 This Mule extension provides operations to compress and decompress data using the Zstandard (Zstd) algorithm. Zstandard is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.
 
+Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by Huff0 and FSE library.
+
 ## Operations
 
 The extension provides two main operations:
